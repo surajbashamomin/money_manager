@@ -1,0 +1,170 @@
+.app-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  width: 1000px;
+  background-size: cover;
+  padding: 26px;
+  margin-bottom: 30px;
+}
+.name {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+.description {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.money-manager {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+.form-result-container {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+.form-container {
+  border: 1px solid #d7dfe9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 5px;
+  padding: 30px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  width: 400px;
+}
+.form-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.form-title {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.title-input {
+  border: 1px solid #d7dfe9;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 11px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.form-amount {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.amount-input {
+  border: 1px solid #d7dfe9;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 11px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.form-type {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.drop-down {
+  margin-bottom: 20px;
+  padding: 5px;
+  padding-right: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+.button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.result-container {
+  border: 1px solid #d7dfe9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 5px;
+  padding: 30px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  width: 500px;
+}
+.result-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.title-amount-type-container {
+  border: 1px solid #d7dfe9;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 2px;
+  width: 400px;
+}
+.result-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.list-title-amount-type-container {
+  border: 1px solid #d7dfe9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 2px;
+  width: 400px;
+  margin-top: 0;
+}

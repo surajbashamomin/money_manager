@@ -1,0 +1,42 @@
+.list-items {
+  /* border: 1px solid brown; */
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 260px;
+}
+.green {
+  background-color: #ecfccb;
+  border-radius: 5px;
+  border: 1px solid #84cc16;
+}
+.blue {
+  background-color: #cffafe;
+  border-radius: 5px;
+  border: 1px solid #06b6d4;
+}
+.violet {
+  background-color: #ede9fe;
+  border-radius: 5px;
+  border: 1px solid #7c3aed;
+}
+
+.image {
+  width: 50px;
+  margin-left: 0px;
+}
+.heading-container {
+}
+.paragraph {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+.amount {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}

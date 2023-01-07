@@ -1,0 +1,25 @@
+.list-transaction-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border: 1px solid brown;
+}
+.title {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.amount {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.deleteImage {
+  background-color: #ffffff;
+  width: 20px;
+}
